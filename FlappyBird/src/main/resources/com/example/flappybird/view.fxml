@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="kliutis" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#mygtukas" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.flappybird.Valdymas">
+    <children>
+        <Rectangle fx:id="paukstis" arcHeight="4.0" arcWidth="4.0" fill="#3399cc" height="37.0" layoutX="50.0" layoutY="200.0" rotate="76.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="37.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis></Rectangle>
+        <Text fx:id="rezultatas" layoutX="115.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="160">
+            <font>
+                <Font size="62.0" />
+            </font>
+        </Text>
+      <AmbientLight lightOn="true">
+         <color>
+            <Color green="0.7887932062149048" blue="1.0" />
+         </color>
+      </AmbientLight>
+      <AmbientLight lightOn="true">
+         <color>
+            <Color green="0.41183242201805115" blue="1.0" />
+         </color>
+      </AmbientLight>
+      <AmbientLight color="CHARTREUSE" lightOn="true" />
+      <AmbientLight color="CHARTREUSE" lightOn="true" />
+    </children>
+</AnchorPane>
